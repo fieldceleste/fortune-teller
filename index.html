@@ -1,70 +1,92 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>Fortune Teller fortune</title>
-    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
-    <link href="css/styles.css" rel="stylesheet" type="text/css">
-    <script src="js/jquery-3.4.1.js"></script>
-    <script src="js/scripts.js"></script>
-  </head>
-  <body>
-    <div class="container">
-      <div class="jumbotron">
-        <h2>Fortune Teller fortune</h2>
-      </div>
-      <form id="fortunefortune">
-        <div class="form-group">
-          
-          <p>In the past year, how many unlucky events have you had? </p>
-          <p>Please check all that apply.</p>
-          <input type="checkbox" name="unlucky_events" value="salt">Tipped over the salt<br>
-          <input type="checkbox" name="unlucky_events" value="cat">Black cat crossed path.<br>
-          <input type="checkbox" name="unlucky_events" value="friday">Just had Friday the 13th.<br>
-          <input type="checkbox" name="unlucky_events" value="mirror">Broke a mirror.<br>
-          <input type="checkbox" name="unlucky_events" value="shoes">had shoes on the table.<br>
-          <input type="checkbox" name="unlucky_events" value="umbrella">Opened a umbrella indoors. <br>
-        </div>
 
+<head>
+  <title>Fortune Teller Quiz</title>
+  <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+  <link href="css/styles.css" rel="stylesheet" type="text/css">
+  <script src="js/jquery-3.4.1.js"></script>
+  <script src="js/scripts.js"></script>
+</head>
 
-
-
-
-
-        <div class="form-group">
-          <p>In the past year, how many lucky events have you had?</p>
-          <p>Check all that apply</p>
-          <input type="checkbox" name="lucky_events" value="pig"> Saw or held a pig.<br>
-          <input type="checkbox" name="lucky_events" value="wishbone">Got the larger wishbone.<br>
-          <input type="checkbox" name="lucky_events" value="dreamcatcher">Bought a dream catcher<br>
-          <input type="checkbox" name="lucky_events" value="8">Used the number 8.<br>
-          <input type="checkbox" name="lucky_events" value="bamboo">Bought some bamboo.<br>
-          <input type="checkbox" name="lucky_events" value="bug">Saw a ladybug<br>
-      </div>
-
-
-
-
-
-
-
-       <button type="submit">Submit Survey</button>
-      </form>
-      <span id="fortune_results1">
-        <p><b>You will have a great rest of the year, especially financially.</b></p>
-      </span>
-      <br>
-      <span id="fortune_results2">
-        <p><b>You may not have such a great rest of the year. There may be some obstacles in your way.</b></p>
-
-      </span>
-      <span id="fortune_results3">
-        <p><b>Things are coming togther for you. You may meet someone very important this year.</b></p>
-        
-      </span>
-      <span id="fortune_results4">
-        <p><b>Something traumatic is about to happen in your life. After this things will get better for you.</b></p>
-        
-      </span>
+<body>
+  <div class="container">
+    <div class="jumbotron">
+      <h2>Fortune Teller Quiz</h2>
     </div>
-  </body>
+    <form id="fortune_quiz">
+      <div class="form-group">
+
+        <p>In the past year, how many unlucky events have you had? </p>
+        <p>Please check all that apply.</p>
+        <input type="checkbox" name="unlucky_events" value="salt">Tipped over the salt<br>
+        <input type="checkbox" name="unlucky_events" value="cat">Black cat crossed path.<br>
+        <input type="checkbox" name="unlucky_events" value="friday">Just had Friday the 13th.<br>
+        <input type="checkbox" name="unlucky_events" value="mirror">Broke a mirror.<br>
+        <input type="checkbox" name="unlucky_events" value="shoes">had shoes on the table.<br>
+        <input type="checkbox" name="unlucky_events" value="umbrella">Opened a umbrella indoors. <br>
+      </div>
+
+
+
+
+
+
+      <div class="form-group">
+        <p>In the past year, how many lucky events have you had?</p>
+        <p>Check all that apply</p>
+        <input type="checkbox" name="lucky_events" value="pig"> Saw or held a pig.<br>
+        <input type="checkbox" name="lucky_events" value="wishbone">Got the larger wishbone.<br>
+        <input type="checkbox" name="lucky_events" value="dreamcatcher">Bought a dream catcher<br>
+        <input type="checkbox" name="lucky_events" value="8">Used the number 8.<br>
+        <input type="checkbox" name="lucky_events" value="bamboo">Bought some bamboo.<br>
+        <input type="checkbox" name="lucky_events" value="bug">Saw a ladybug<br>
+      </div>
+      <button type="submit">Tell me my fortune</button>
+    </form>
+
+<span id="fortune">
+  <p><b>Look into my crystal ball....</b></p>
+</span>
+    </span>
+  </div>
+</body>
+
 </html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- <span id="fortune_results1">
+  <p><b>You will have a great rest of the year, especially financially.</b></p>
+</span>
+<br>
+<span id="fortune_results2">
+  <p><b>You may not have such a great rest of the year. There may be some obstacles in your way.</b></p>
+
+</span>
+<span id="fortune_results3">
+  <p><b>Things are coming togther for you. You may meet someone very important this year.</b></p>
+
+</span>
+<span id="fortune_results4">
+  <p><b>Something traumatic is about to happen in your life. After this things will get better for you.</b></p> -->
