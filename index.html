@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Fortune Teller Quiz</title>
+    <title>Fortune Teller fortune</title>
     <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
     <link href="css/styles.css" rel="stylesheet" type="text/css">
     <script src="js/jquery-3.4.1.js"></script>
@@ -10,9 +10,9 @@
   <body>
     <div class="container">
       <div class="jumbotron">
-        <h2>Fortune Teller Quiz</h2>
+        <h2>Fortune Teller fortune</h2>
       </div>
-      <form id="fortuneQuiz">
+      <form id="fortunefortune">
         <div class="form-group">
           
           <p>In the past year, how many unlucky events have you had? </p>
@@ -33,22 +33,37 @@
         <div class="form-group">
           <p>In the past year, how many lucky events have you had?</p>
           <p>Check all that apply</p>
-          <input type="checkbox" name="lucky_events" value="bike"> Riding a bike.<br>
-          <input type="checkbox" name="lucky_events" value="car">Driving a car.<br>
-          <input type="checkbox" name="lucky_events" value="carpool">Carpooling with others.<br>
-          <input type="checkbox" name="lucky_events" value="walk">Walking.<br>
-          <input type="checkbox" name="lucky_events" value="bus">Riding the bus.<br>
-          <input type="checkbox" name="lucky_events" value="train">Riding the train.<br>
-          
-        </div>
+          <input type="checkbox" name="lucky_events" value="pig"> Saw or held a pig.<br>
+          <input type="checkbox" name="lucky_events" value="wishbone">Got the larger wishbone.<br>
+          <input type="checkbox" name="lucky_events" value="dreamcatcher">Bought a dream catcher<br>
+          <input type="checkbox" name="lucky_events" value="8">Used the number 8.<br>
+          <input type="checkbox" name="lucky_events" value="bamboo">Bought some bamboo.<br>
+          <input type="checkbox" name="lucky_events" value="bug">Saw a ladybug<br>
+      </div>
+
+
+
+
+
+
+
        <button type="submit">Submit Survey</button>
       </form>
-      <span id="work-responses">
-        <p><b>You use the following methods of transportation to travel to work or school:</b></p>
+      <span id="fortune_results1">
+        <p><b>You will have a great rest of the year, especially financially.</b></p>
       </span>
       <br>
-      <span id="fun-responses">
-        <p><b>You use the following methods of transportation to travel to other activities and events:</b></p>
+      <span id="fortune_results2">
+        <p><b>You may not have such a great rest of the year. There may be some obstacles in your way.</b></p>
+
+      </span>
+      <span id="fortune_results3">
+        <p><b>Things are coming togther for you. You may meet someone very important this year.</b></p>
+        
+      </span>
+      <span id="fortune_results4">
+        <p><b>Something traumatic is about to happen in your life. After this things will get better for you.</b></p>
+        
       </span>
     </div>
   </body>
